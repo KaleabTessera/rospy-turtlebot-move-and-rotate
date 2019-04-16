@@ -1,0 +1,2 @@
+turtlebotcontroller
+-DCATKIN_DEVEL_PREFIX=/home/osboxes/RoboticsAssigments/lab1/devel -DCMAKE_INSTALL_PREFIX=/home/osboxes/RoboticsAssigments/lab1/install -G Unix Makefiles
