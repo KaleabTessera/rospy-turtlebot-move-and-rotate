@@ -17,10 +17,10 @@ https://stackoverflow.com/questions/55181205/gazebo-crashing-when-subscribing-to
 
 # How to Run:
 - Ensure main node is running
-  - roslaunch turtlebot_bringup minimal.launch OR roslaunch turtlebot_gazebo turtlebot_world.launch
+  - `roslaunch turtlebot_bringup minimal.launch`*OR* `roslaunch turtlebot_gazebo turtlebot_world.launch`
 - Run [move.py](https://github.com/KaleabTessera/rospy-turtlebot-move-and-rotate/blob/master/src/turtlebotcontroller/scripts/move.py) in specified pacakage.
-  - rosrun [package] move.py
+  - `rosrun [package] move.py`
 
 # Errors
-- If running in simulator and you having issues with time durations:
+- If running in simulator and you are having issues with time durations:
   - rosparam set /use_sim_time false
